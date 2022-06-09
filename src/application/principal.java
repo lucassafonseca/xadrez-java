@@ -1,9 +1,12 @@
 package application;
 
-public class principal {
+import boardgame.Posicao;
+
+public class Principal {
 
 	public static void main(String[] args) {
-		System.out.println("teste");
+		Posicao posicao = new Posicao(2, 4);
+		System.out.println(posicao);
 	}
 
 }
