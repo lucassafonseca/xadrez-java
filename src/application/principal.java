@@ -1,12 +1,12 @@
 package application;
 
-import boardgame.Posicao;
+import xadrez.PartidaXadrez;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		Posicao posicao = new Posicao(2, 4);
-		System.out.println(posicao);
+		PartidaXadrez partida = new PartidaXadrez();
+		UI.printTabuleiro(partida.getPecas());
 	}
 
 }
